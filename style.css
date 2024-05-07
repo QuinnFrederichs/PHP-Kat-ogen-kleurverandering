@@ -1,0 +1,55 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 45px);
+    grid-template-rows: repeat(8, 45px);
+}
+
+.pixel {
+    height: auto;
+    width: auto;
+}
+
+.pixel:nth-child(9),
+.pixel:nth-child(12),
+.pixel:nth-child(16),
+.pixel:nth-child(18),
+.pixel:nth-child(22),
+.pixel:nth-child(23),
+.pixel:nth-child(24),
+.pixel:nth-child(25),
+.pixel:nth-child(26),
+.pixel:nth-child(28),
+.pixel:nth-child(32),
+.pixel:nth-child(34),
+.pixel:nth-child(36),
+.pixel:nth-child(39),
+.pixel:nth-child(42),
+.pixel:nth-child(43),
+.pixel:nth-child(44),
+.pixel:nth-child(45),
+.pixel:nth-child(46),
+.pixel:nth-child(49),
+.pixel:nth-child(53),
+.pixel:nth-child(54),
+.pixel:nth-child(55),
+.pixel:nth-child(56),
+.pixel:nth-child(57),
+.pixel:nth-child(58),
+.pixel:nth-child(63),
+.pixel:nth-child(64),
+.pixel:nth-child(65),
+.pixel:nth-child(66),
+.pixel:nth-child(67),
+.pixel:nth-child(68),
+.pixel:nth-child(73),
+.pixel:nth-child(75),
+.pixel:nth-child(78)
+{
+  background: black;
+}
+
+/* .pixel:nth-child(33),
+.pixel:nth-child(35)
+{
+    background-color: aquamarine;
+} */
